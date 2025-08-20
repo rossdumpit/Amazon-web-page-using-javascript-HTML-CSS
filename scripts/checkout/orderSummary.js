@@ -8,11 +8,11 @@ import {renderPaymentSummary} from './paymentSummary.js'
 
 
 //hello();
-console.log(dayjs());
+// console.log(dayjs());
 
-const today = dayjs();
-const deliveryDate = today.add(7, 'days');
-console.log(deliveryDate.format('dddd, MMMM D'));
+// const today = dayjs();
+// const deliveryDate = today.add(7, 'days');
+// console.log(deliveryDate.format('dddd, MMMM D'));
 
 
 export function renderOrderSummary() {
