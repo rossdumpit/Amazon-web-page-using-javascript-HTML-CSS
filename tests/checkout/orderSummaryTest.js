@@ -64,3 +64,5 @@ describe('test suite: renderOrderSummary', () => {
       document.querySelector('.js-test-container').innerHTML = '';
    });
 });
+
+//process make changes to code> re-run the tests > save to git
