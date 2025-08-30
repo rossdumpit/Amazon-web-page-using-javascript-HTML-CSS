@@ -66,7 +66,8 @@ class Clothing extends Product {
 //       stars: 4.5,
 //       count: 56
 //     },
-//     priceCents: 799, //     keywords: [
+//     priceCents: 799,
+//     keywords: [
 //       "tshirts",
 //       "apparel",
 //       "mens"
@@ -95,6 +96,33 @@ class Clothing extends Product {
 //     ]
 //   });
 // console.log(product1);
+
+/*
+const date = new Date();
+console.log(date);
+console.log(date.toLocaleTimeString());
+
+
+console.log(this);
+const object2 = {
+  a: 2,
+  b: this.a
+};
+
+
+function logThis() {
+  console.log(this);
+}
+logThis();
+logThis.call('hello');
+
+const object3 = {
+  method: () => {
+    console.log(this);
+  }
+};
+object3.method();
+*/
 
 
 export const products = [
